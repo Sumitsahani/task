@@ -2,7 +2,7 @@ html {
 	font-size: 16px;
   }
   
-  /* Default styles for larger screens (web) */
+  
   .nav {
 	background-color: blueviolet;
 	width: 100%;
@@ -13,54 +13,54 @@ html {
 	display: flex;
 	justify-content: space-between;
 	color: white;
-	margin-left: 2.5rem; /* 40px converted to rem */
-	margin-right: 2.5rem; /* 40px converted to rem */
+	margin-left: 2.5rem; 
+	margin-right: 2.5rem; 
   }
   
   .slogan {
 	text-align: center;
 	color: red;
-	font-size: 1.25rem; /* 20px converted to rem */
+	font-size: 1.25rem; 
   }
   
   .bold {
 	text-align: center;
 	color: white;
 	font-weight: bolder;
-	font-size: 3.125rem; /* 50px converted to rem */
+	font-size: 3.125rem; 
   }
   
   .input {
-	border-radius: 0.9375rem; /* 15px converted to rem */
-	width: 21.875rem; /* 350px converted to rem */
-	height: 2.8125rem; /* 45px converted to rem */
+	border-radius: 0.9375rem; 
+	width: 21.875rem; 
+	height: 2.8125rem; 
 	justify-content: center;
 	align-items: center;
   }
   
   .filter {
-	width: 43.75rem; /* 700px converted to rem */
-	height: 18.75rem; /* 300px converted to rem */
-	border: 0.25rem solid; /* 4px converted to rem */
-	margin-bottom: 2.5rem; /* 40px converted to rem */
-	border-radius: 0.3125rem; /* 5px converted to rem */
-	height: 1.875rem; /* 30px converted to rem */
+	width: 43.75rem; 
+	height: 18.75rem; 
+	border: 0.25rem solid; 
+	margin-bottom: 2.5rem; 
+	border-radius: 0.3125rem; 
+	height: 1.875rem; 
 	border-color: blueviolet;
   }
   
   .inputbox {
 	z-index: 999;
 	text-align: center;
-	padding-top: 0.25rem; /* 4px converted to rem */
-	padding-bottom: 1.875rem; /* 30px converted to rem */
+	padding-top: 0.25rem; 
+	padding-bottom: 1.875rem; 
   }
   
   .inputbox input {
-	width: 31.25rem; /* 500px converted to rem */
-	height: 2.5rem; /* 40px converted to rem */
-	border: 0.25rem solid; /* 4px converted to rem */
-	margin-bottom: 2.5rem; /* 40px converted to rem */
-	border-radius: 1.25rem; /* 20px converted to rem */
+	width: 31.25rem; 
+	height: 2.5rem; 
+	border: 0.25rem solid; 
+	margin-bottom: 2.5rem; 
+	border-radius: 1.25rem; 
 	border-color: blueviolet;
   }
   
@@ -71,11 +71,11 @@ html {
   }
   
   .page {
-	height: 18.75rem; /* 300px converted to rem */
-	width: 21.875rem; /* 350px converted to rem */
-	margin-right: 1.25rem; /* 20px converted to rem */
-	margin-top: 5rem; /* 80px converted to rem */
-	border-radius: 1.875rem; /* 30px converted to rem */
+	height: 18.75rem;
+	width: 21.875rem;
+	margin-right: 1.25rem;
+	margin-top: 5rem;
+	border-radius: 1.875rem;
   }
   
   .nameTitle {
@@ -86,14 +86,14 @@ html {
   .cards {
 	display: flex;
 	justify-content: space-between;
-	border-radius: 1.25rem; /* 20px converted to rem */
+	border-radius: 1.25rem;
   }
   
   .img {
-	height: 10rem; /* 160px converted to rem */
-	width: 21.875rem; /* 350px converted to rem */
-	border-top-right-radius: 1.25rem; /* 20px converted to rem */
-	border-top-left-radius: 1.25rem; /* 20px converted to rem */
+	height: 10rem;
+	width: 21.875rem;
+	border-top-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
   }
   
   .span {
@@ -123,6 +123,6 @@ html {
 	}
   }
 
-  /* Default styles for larger screens (web) */
+  
 
   

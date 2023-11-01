@@ -1,101 +1,128 @@
-
-.nav{
+html {
+	font-size: 16px;
+  }
+  
+  /* Default styles for larger screens (web) */
+  .nav {
 	background-color: blueviolet;
 	width: 100%;
-	height: 300px;
-}
-
-.title{
-display: flex;
-justify-content: space-between;
-color: white;
-margin-left: 40px;
-margin-right: 40px;
-}
-
-.slogan{
+	height: 18.75rem; /* 300px converted to rem */
+  }
+  
+  .title {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	margin-left: 2.5rem; /* 40px converted to rem */
+	margin-right: 2.5rem; /* 40px converted to rem */
+  }
+  
+  .slogan {
 	text-align: center;
-	color:red;
-	font-size: 20px;
-}
-.bold{
+	color: red;
+	font-size: 1.25rem; /* 20px converted to rem */
+  }
+  
+  .bold {
 	text-align: center;
 	color: white;
 	font-weight: bolder;
-	font-size:50px;
-}
-
-.input{
-	border-radius: 15px;
-	width: 350px;
-	height: 45px;
+	font-size: 3.125rem; /* 50px converted to rem */
+  }
+  
+  .input {
+	border-radius: 0.9375rem; /* 15px converted to rem */
+	width: 21.875rem; /* 350px converted to rem */
+	height: 2.8125rem; /* 45px converted to rem */
 	justify-content: center;
 	align-items: center;
-}
-
-.fliter{
-	width: 700px;
-	height: 300px;
-	border:4px solid;
-	margin-bottom: 40px;
-	border-radius: 5px;
-	height: 30px;
+  }
+  
+  .filter {
+	width: 43.75rem; /* 700px converted to rem */
+	height: 18.75rem; /* 300px converted to rem */
+	border: 0.25rem solid; /* 4px converted to rem */
+	margin-bottom: 2.5rem; /* 40px converted to rem */
+	border-radius: 0.3125rem; /* 5px converted to rem */
+	height: 1.875rem; /* 30px converted to rem */
 	border-color: blueviolet;
-}
-
-.inputbox{
+  }
+  
+  .inputbox {
 	z-index: 999;
 	text-align: center;
-	padding-top: 4px;
-	padding-bottom: 30px;
-	
-
-}
-
-.inputbox input{
-	width: 500px;
-	height: 40px;
-	border:4px solid;
-	margin-bottom: 40px;
-	border-radius: 20px;
+	padding-top: 0.25rem; /* 4px converted to rem */
+	padding-bottom: 1.875rem; /* 30px converted to rem */
+  }
+  
+  .inputbox input {
+	width: 31.25rem; /* 500px converted to rem */
+	height: 2.5rem; /* 40px converted to rem */
+	border: 0.25rem solid; /* 4px converted to rem */
+	margin-bottom: 2.5rem; /* 40px converted to rem */
+	border-radius: 1.25rem; /* 20px converted to rem */
 	border-color: blueviolet;
-	
-}
-
-.button{
+  }
+  
+  .button {
 	color: black;
 	background-color: white;
 	border: none;
-}
-
-.page{
-	height: 300px;
-	width: 350px;
-	margin-right: 20px;
-	margin-top: 80px;
-	border-radius: 30px;
-}
-
-.nameTitle{
+  }
+  
+  .page {
+	height: 18.75rem; /* 300px converted to rem */
+	width: 21.875rem; /* 350px converted to rem */
+	margin-right: 1.25rem; /* 20px converted to rem */
+	margin-top: 5rem; /* 80px converted to rem */
+	border-radius: 1.875rem; /* 30px converted to rem */
+  }
+  
+  .nameTitle {
 	display: flex;
 	justify-content: space-between;
-	
-}
-
-.cards{
+  }
+  
+  .cards {
 	display: flex;
 	justify-content: space-between;
-	border-radius: 20px;
-	
-}
-
-.img{
-	height: 160px;
-	width: 350px;
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
-}
-
-.span{
+	border-radius: 1.25rem; /* 20px converted to rem */
+  }
+  
+  .img {
+	height: 10rem; /* 160px converted to rem */
+	width: 21.875rem; /* 350px converted to rem */
+	border-top-right-radius: 1.25rem; /* 20px converted to rem */
+	border-top-left-radius: 1.25rem; /* 20px converted to rem */
+  }
+  
+  .span {
 	color: red;
-}
+  }
+
+@media (max-width: 768px) {
+	.nav {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	.slogan {
+	  font-size: 16px;
+	}
+  
+	.bold {
+	  font-size: 40px;
+	}
+  
+	.inputbox {
+	  width: 30%;
+	}
+	
+	input {
+	  width: 30%;
+	}
+  }
+
+  /* Default styles for larger screens (web) */
+
+  

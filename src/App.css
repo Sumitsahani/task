@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+
+.nav{
+	background-color: blueviolet;
+	width: 100%;
+	height: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+display: flex;
+justify-content: space-between;
+color: white;
+margin-left: 40px;
+margin-right: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slogan{
+	text-align: center;
+	color:red;
+	font-size: 20px;
+}
+.bold{
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size:50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input{
+	border-radius: 15px;
+	width: 350px;
+	height: 45px;
+	justify-content: center;
+	align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.fliter{
+	width: 700px;
+	height: 300px;
+	border:4px solid;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	height: 30px;
+	border-color: blueviolet;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputbox{
+	z-index: 999;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 30px;
+	
+
+}
+
+.inputbox input{
+	width: 500px;
+	height: 40px;
+	border:4px solid;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	border-color: blueviolet;
+	
+}
+
+.button{
+	color: black;
+	background-color: white;
+	border: none;
+}
+
+.page{
+	height: 300px;
+	width: 350px;
+	margin-right: 20px;
+	margin-top: 80px;
+	border-radius: 30px;
+}
+
+.nameTitle{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+	border-radius: 20px;
+	
+}
+
+.img{
+	height: 160px;
+	width: 350px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.span{
+	color: red;
 }
